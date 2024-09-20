@@ -12,7 +12,9 @@
 <body>
     <header>
         <nav>
-            <div class="logo"><p>Mindful <span>Spirit</span></p></div>
+            <div class="logo">
+                <p>Mindful<span>Spirit</span></p>
+            </div>
             <ul>
                 <li><a href="#om-mig">Om mig</a></li>
                 <li><a href="#tjanster">Tjänster</a></li>
@@ -20,7 +22,7 @@
             </ul>
             <i id="menu" class="fa-solid fa-bars"></i>
         </nav>
-        
+
         <div class="mobile-nav">
             <ul>
                 <li class="mobile-nav-links"><a href="#om-mig">Om mig</a></li>
@@ -28,54 +30,79 @@
                 <li class="mobile-nav-links"><a href="#kontakt">Kontakt</a></li>
             </ul>
         </div>
-        
+
     </header>
 
     <div class="hero">
         <div class="text">
-            <h1>Välkommen till Mindfulspirit</h1>
+            <h1>Välkommen till Mindful<span>Spirit</span></h1>
             <p>Vi fokuserar på att förbättra din hälsa och välmående genom mindfulness och hälsosamma vanor.</p>
             <i class="fa-solid fa-spa"></i>
         </div>
     </div>
 
     <section id="om" class="om">
-        <h2>Om mig</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla reprehenderit ad rerum est. Corporis porro laborum consectetur architecto autem. Nisi provident optio voluptatem dicta hic illum? Officiis, eius mollitia. Assumenda quam maiores accusantium eveniet fugiat quas quaerat laborum ipsa corporis ea eos animi dolorem, porro neque, libero nulla. Possimus, aspernatur?</p>
+        <div class="text">
+            <h2>Om mig</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla reprehenderit ad rerum est. Corporis
+                porro laborum consectetur architecto autem. Nisi provident optio voluptatem dicta hic illum? Officiis,
+                eius mollitia. Assumenda quam maiores accusantium eveniet fugiat Possimus, aspernatur?</p>
+        </div>
     </section>
-
+    
     <section id="tjanster" class="tjanster">
         <h2>Våra Tjänster</h2>
         <ul>
             <li>
                 <div class="img">
-                    <img src="" alt="">
+                    <img src="/images/meditation.jpeg" alt="">
                 </div>
-                <p>
-                    Mindfulness-klasser
-                </p>
+                <div class="text">
+                    <h3>
+                        Kiropraktik
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <p>Från: 599 kr:-</p>
+                </div>
             </li>
             <li>
                 <div class="img">
-                    <img src="" alt="">
+                    <img src="/images/meditation.jpeg" alt="">
                 </div>
-                <p>
-                    Hälsocoaching
-                </p>
+                <div class="text">
+                    <h3>
+                        Akupunktur
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <p>Från: 599 kr:-</p>
+                </div>
             </li>
             <li>
                 <div class="img">
-                    <img src="" alt="">
+                    <img src="/images/meditation.jpeg" alt="">
                 </div>
-                <p>
-                    Yoga & Meditation
-                </p>
+                <div class="text">
+                    <h3>
+                        Meditation
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <p>Från: 599 kr:-</p>
+                </div>
             </li>
         </ul>
     </section>
 
     <section id="kontakt" class="kontakt">
         <h2>Kontakta oss</h2>
+        <form action="#">
+            <!-- <label for="name">Namn</label> -->
+            <input type="text" name="name" id="name" placeholder="Namn" required>
+            <!-- <label for="mail">Mail</label> -->
+            <input type="mail" name="name" id="name" placeholder="Mail" required>
+            <!-- <label for="meddelande">Meddelande</label> -->
+            <textarea name="meddelande" id="meddelande" rows="7" placeholder="Meddelande" required></textarea>
+            <input type="submit" class="submit">
+        </form>
         <div class="mail">
             <i class="fa-solid fa-envelope"></i>
             <p>info@mindfulspirit.se</p>
